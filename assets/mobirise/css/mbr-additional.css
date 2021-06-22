@@ -3461,3 +3461,40 @@ a {
 .large-quote {
     float: left;
 }
+
+.discover-heading{
+  background-image: url(../../images/blue-bar-left.png), url(../../images/blue-bar-right.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+  background-color: #1e538d;
+  height: 70px;
+}
+.discover-heading h4 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 63px;
+}
+
+.square-boxes {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 0;
+}
+.square-boxes .card-text{ 
+  color: #000;
+  font-size: 20px;
+}
+.square-yellow .card-title{
+  color: #151F3A;
+  font-size: 40px;
+}
+.square-yellow{
+ background-image: url(../../images/square-yellow.png)
+}
+.square-white .card-title{
+  color: #1E538D;
+  font-size: 40px;
+}
+.square-white{
+ background-image: url(../../images/square-white.png)
+}
