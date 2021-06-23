@@ -3443,6 +3443,11 @@ a {
   color: #fff;
   padding: .75vw;
 }
+
+.header-message.dark {
+  background-color: #151F3A;
+}
+
 .header-message h4{ color: #fff; margin-bottom: 0 !important; line-height: 1.5em; font-size: 20px; }
 
 .gold-text{
@@ -3459,6 +3464,11 @@ a {
   float: left;
   margin-right: 7px;
   margin-top: 7px;
+}
+
+
+.blue-quote:before {
+  background-image: url('../../images/quote-blue.png')!important;
 }
 
 .large-quote {

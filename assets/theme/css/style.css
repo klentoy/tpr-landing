@@ -1090,9 +1090,10 @@ i.ico-star {
 }
 
 /* video page */
-
+#landing-booking-page img,
 #landing-video-page img {
   width: auto;
+  max-width: 100%;
 }
 
 .einstein-wrap img {
@@ -1117,6 +1118,17 @@ p.vid-subheading {
   font-weight: 300;
 }
 
+p.booking-quote-auth {
+  max-width: 13vw;
+  margin-left: 1vw;
+}
+
+.booking-quote-img img {
+  max-width: 95px!important;
+}
+
+.grey-bg { background: #F5F5F5; }
+.blue-bg { background: #1E538D; }
 
 @media (max-width: 1024px) {
   #hero-container .container-fluid {
@@ -1187,6 +1199,10 @@ p.vid-subheading {
     padding: 0;
     font-size: 4vw;
     margin-top: 12px;
+  }
+
+  p.booking-quote-auth { 
+    max-width: 40vw;
   }
 
 }
