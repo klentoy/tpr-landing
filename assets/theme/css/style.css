@@ -1130,6 +1130,29 @@ p.booking-quote-auth {
 .grey-bg { background: #F5F5F5; }
 .blue-bg { background: #1E538D; }
 
+
+/* Booking confirmation */
+
+.row.confirmation-steps {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.confirmation-num img {
+  max-width: 92px!important;
+  margin: 0 auto;
+}
+
+.confirmation-list p {
+  font-size: 1vw;
+  line-height: 1.3em;
+}
+
+.row.confirmation-steps {
+  margin-bottom: 1vw;
+}
+
 @media (max-width: 1024px) {
   #hero-container .container-fluid {
     max-width: 100%;
@@ -1204,6 +1227,10 @@ p.booking-quote-auth {
   p.booking-quote-auth { 
     max-width: 40vw;
   }
+  
+  .confirmation-list p {
+    font-size: 4vw;
+  }
 
 }
 
@@ -1261,6 +1288,10 @@ p.booking-quote-auth {
   .einstein-quote p {
     font-size: 3.5vw;
     margin-top: 12px;
+  }
+
+  .feedback-wrap img {
+    margin: 0 auto;
   }
 
 }
