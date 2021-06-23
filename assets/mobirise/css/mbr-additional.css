@@ -2,24 +2,25 @@ body {
   font-family: Lato, Jost;
 }
 .display-1 {
-  font-family: CondorComp, 'Jost', sans-serif;
-  font-size: 4.6rem;
+  font-family: condor-compressed, 'Jost', sans-serif;
+  font-size: 4vw;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: CondorComp, 'Jost', sans-serif;
-  font-size: 3rem;
+  font-family: condor-compressed, 'Jost', sans-serif;
+  font-size: 2.1vw;
   line-height: 1.1;
+  color: #151F3A;
 }
 .display-2 > .mbr-iconfont {
   font-size: 3.75rem;
 }
 .display-4 {
   font-family: Lato, 'Jost', sans-serif;
-  font-size: 1.1rem;
+  font-size: .84vw;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
@@ -27,7 +28,7 @@ body {
 }
 .display-5 {
   font-family: Lato, 'Jost', sans-serif;
-  font-size: 2rem;
+  font-size: .94vw;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
@@ -35,8 +36,12 @@ body {
 }
 .display-7 {
   font-family: Lato, 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.25vw;
   line-height: 1.5;
+}
+.display-8 {
+  font-size: 1vw;
+  line-height: 1.3em;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.5rem;
@@ -114,8 +119,10 @@ body {
 .btn-primary:active {
   background-color: #71f7fd !important;
   border-color: #71f7fd !important;
-  color: #02696d !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #000 !important;
+  background: #71F7FD;
+  box-shadow: 0px 4px 13px rgba(113, 247, 253, 0.3);
+  border-radius: 4px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -683,14 +690,12 @@ a {
   transition: color 0.6s;
 }
 .cid-sAXKMD9szk {
-  padding-top: 7rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/hero-background-1440x664.png");
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  background-image: url("../../../assets/images/hero-bg-1.webp");
 }
+
 @media (max-width: 767px) {
-  .cid-sAXKMD9szk .row {
-    flex-direction: column-reverse;
-  }
   .cid-sAXKMD9szk .mbr-figure {
     margin-bottom: 1.5rem;
   }
@@ -748,7 +753,8 @@ a {
   margin-bottom: 2rem;
 }
 .cid-sAXP0XOYJf .card-wrapper {
-  margin-top: 3rem;
+  margin-top: 5vw;
+  padding: 0 1.75vw;
 }
 .cid-sAXP0XOYJf .row {
   justify-content: center;
@@ -764,7 +770,8 @@ a {
   color: #ffffff;
 }
 .cid-sAXTzi3VCB {
-  padding-top: 6rem;
+  margin-top: -154px;
+  padding-top: 200px;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -783,13 +790,17 @@ a {
   .cid-sAXTzi3VCB .link-wrap {
     align-items: center;
   }
+
+  .cid-sAXKMD9szk {
+    background-image: url(../../../assets/images/hero-m.webp);
+  }
+
 }
 .cid-sAXTzi3VCB .image-wrapper img {
   width: 100%;
   object-fit: cover;
 }
 .cid-sAXVktpFzo {
-  padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -816,7 +827,7 @@ a {
 .cid-sAXWJvZau0 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 }
 @media (min-width: 992px) {
   .cid-sAXWJvZau0 .text-wrapper {
@@ -867,7 +878,7 @@ a {
 .cid-sAXXE2QNv1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: #fafafa;
+  background: #151F3A;
 }
 .cid-sAXXE2QNv1 .team-card {
   margin-bottom: 2rem;
@@ -878,7 +889,8 @@ a {
 }
 .cid-sAXXE2QNv1 .card-wrap {
   background: #ffffff;
-  border-radius: 4px;
+  height: 100%;
+  border: 2px solid #F5E959;
 }
 @media (max-width: 991px) {
   .cid-sAXXE2QNv1 .card-wrap {
@@ -888,16 +900,7 @@ a {
 .cid-sAXXE2QNv1 .card-wrap .image-wrap img {
   width: 100%;
 }
-@media (min-width: 768px) {
-  .cid-sAXXE2QNv1 .card-wrap .content-wrap {
-    padding: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sAXXE2QNv1 .card-wrap .content-wrap {
-    padding: 1rem;
-  }
-}
+
 .cid-sAXXE2QNv1 .social-row {
   text-align: center;
 }
@@ -3438,9 +3441,9 @@ a {
 .header-message{
   background-color: #1E538D;
   color: #fff;
-  height: 61px;
+  padding: .75vw;
 }
-.header-message h4{ color: #fff; margin-bottom: 0 !important; line-height: 61px; font-size: 20px;}
+.header-message h4{ color: #fff; margin-bottom: 0 !important; line-height: 1.5em; font-size: 20px; }
 
 .gold-text{
   color: #F5E959;
@@ -3477,24 +3480,133 @@ a {
 
 .square-boxes {
   background-repeat: no-repeat;
-  background-size: 100%;
   border-radius: 0;
+  background-size: cover;
+  height: 20vw;
+  background-position: center;
 }
+
+.square-boxes .card-title{
+  font-size: 2.1vw;
+}
+
 .square-boxes .card-text{ 
   color: #000;
-  font-size: 20px;
-}
-.square-yellow .card-title{
-  color: #151F3A;
-  font-size: 40px;
+  font-size: 1vw;
+  line-height: 1.3em;
 }
 .square-yellow{
  background-image: url(../../images/square-yellow.png)
 }
-.square-white .card-title{
-  color: #1E538D;
-  font-size: 40px;
-}
 .square-white{
  background-image: url(../../images/square-white.png)
+}
+
+@media (max-width: 1024px) {
+  .square-boxes .card-title,
+  .display-2 {
+    font-size: 2.3vw;
+  }
+
+  .display-8,
+  .square-boxes .card-text {
+    font-size: 1.3vw;
+  }
+
+  .square-boxes {
+    height: 23vw;
+  }
+
+}
+
+@media (max-width: 980px) {
+  .cid-sAXKMD9szk {
+    padding-top: 12vw;
+    padding-bottom: 7vw;
+  }
+
+  .header-message h4 {
+    line-height: 1.5em;
+    font-size: 3.75vw;
+    padding: 3vw;
+  }
+
+  .square-boxes {
+    height: auto;
+    padding-bottom: 8vw;
+  }
+
+  .square-boxes .card-title{
+    font-size: 6vw;
+    line-height: 1.2em;
+  }
+
+  .display-2  {
+    font-size: 8vw;
+    line-height: 1.2em;
+  }
+
+  .square-boxes .card-text {
+    font-size: 3vw;
+  }
+
+  .display-8 {
+    font-size: 4.3vw;
+  }
+
+  .square-boxes {
+    height: auto;
+    padding: 5vw 3vw 8vw;
+  }
+
+  .cid-sAXXE2QNv1 .card-wrap {
+    background: none;
+    border: none;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .discover-heading { height: auto; }
+
+  .row.discover-heading h4 {
+    line-height: 1.3em;
+    font-size: 6vw;
+    padding: 15px 20px;
+  }
+
+  .row.discover-heading,
+  .row.discover-content {
+    margin: 0 15px;
+  }
+
+  .square-boxes {
+    height: auto;
+    padding: 5vw 4vw 8vw;
+  }
+
+  .cid-sAXTzi3VCB { 
+    padding-top: 130px; 
+    padding-bottom: 8vw;
+  }
+
+  .cid-sAXXE2QNv1,
+  .cid-sAXVktpFzo,
+  .cid-sAXXbz9v3y,
+  .cid-sAXWJvZau0 {
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+  }
+
+  .display-5,
+  .display-4 {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+
+  .cid-sAXXE2QNv1 .col-sm-6:not(:last-child) .card-wrap {
+    margin-bottom: 20vw;
+  }
+
 }
